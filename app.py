@@ -41,7 +41,7 @@ def search_product(query):
 
 #Web app
 img = Image.open('/Users/sagarpatel/Flipkart_Product_Recommendation/flipkart-logo-3F33927DAA-seeklogo.com.png')
-st.image(img,width=900)
+st.image(img,width=200)
 st.title("Product Recommendation System on Flipkart Data")
 query = st.text_input("Enter Product Name")
 submit = st.button('Search')
